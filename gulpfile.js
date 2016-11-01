@@ -17,7 +17,8 @@ gulp.task('less', function(){
 
 gulp.task('watch', function(){
   gulp.watch('./src/*.html', ['reload']) ;
-  gulp.watch('./src/app/**/*', ['reload']) ;
+  gulp.watch('./src/app/**/*.html', ['reload']) ;
+  gulp.watch('./src/app/**/*.js', ['reload']) ;
 })
 
 gulp.task('serve', ['less'], function() {
