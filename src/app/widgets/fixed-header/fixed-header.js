@@ -9,7 +9,9 @@
 
   })
 
-  function fixedHeaderCtrl () {
+  fixedHeaderCtrl.$inject = ['customService']
+
+  function fixedHeaderCtrl ( customService ) {
 
   }
 
