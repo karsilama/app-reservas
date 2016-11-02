@@ -7,7 +7,7 @@ var gulp = require('gulp'),
 gulp.task('reload', ['less'], browserSync.reload ) ;
 
 gulp.task('less', function(){
-  return gulp.src('./src/less/**/*')
+  return gulp.src('./src/assets/less/**/*')
     .pipe(sourcemaps.init())
     .pipe(less())
     .pipe(concat('main.css'))

@@ -3,6 +3,6 @@
   'use strict';
 
   angular
-    .module('app.core', ['app.core.routing'])
+    .module('app.core.routing', ['ui.router'])
 
 })();

@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('app')
+    .module('app.core.routing')
     .config(configFn) ;
 
     configFn.$inject = ['$stateProvider', '$urlRouterProvider'] ;

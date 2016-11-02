@@ -4,21 +4,24 @@
     <meta charset="utf-8">
     <title>UI arch project</title>
 
-    <!-- starts styles -->
+    <!-- starts vendors styles -->
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" media="screen">
+    <!-- ends vendors styles -->
 
+    <!-- starts aplication styles -->
     <link rel="stylesheet" href="assets/css/main.css">
-    <!-- ends styles -->
+    <!-- ends aplication styles -->
 
-    <!-- starts bower devDependencies -->
+    <!-- starts vendors components -->
     <script src="../bower_components/angular/angular.js"></script>
     <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-    <!-- ends bower devDependencies -->
+    <!-- ends vendors components -->
 
     <!-- starts modules -->
     <script src="app/app.module.js"></script>
     <script src="app/core/core.module.js"></script>
+    <script src="app/core/routing/routing.module.js"></script>
     <script src="app/services/services.module.js"></script>
     <script src="app/widgets/widgets.module.js"></script>
     <script src="app/partials/partials.module.js"></script>
@@ -36,7 +39,7 @@
     <script src="app/partials/home/home.controller.js"></script>
     <!-- ends controllers -->
 
-    <script src="app/app.config.js"></script>
+    <script src="app/core/routing/routing.config.js"></script>
 
   </head>
   <body>
