@@ -1,1 +1,1 @@
-{"version":3,"sources":["main.less","variables.less"],"names":[],"mappings":"AAEA;EACE,mBAAA;;;ACHF","file":"main.css","sourcesContent":["@import \"variables\" ;\n\nbody {\n  background: @lightGey ;\n}\n","@lightGey : #dbdbdb ;\n"]}
+{"version":3,"sources":["main.less","main.css","variables.css"],"names":[],"mappings":"AAEA;EACE,oBAAA;CCDD;;ACFD","file":"main.css","sourcesContent":["@import \"variables\" ;\n\nbody {\n  background: @lightGey ;\n}\n","body {\n  background: #dbdbdb;\n}\n",null]}
