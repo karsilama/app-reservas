@@ -14,7 +14,7 @@
 
       return $injector.instantiate ( function() {
 
-        this.n = 1 ;
+        //this is a non singleton object
 
       } ) ;
 
